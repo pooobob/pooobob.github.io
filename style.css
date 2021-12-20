@@ -1,11 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #00d3ff;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
-	background-image: url("./background.gif");
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background: url("./background.gif") no-repeat center center fixed;
+	background-size: cover;
 }
 
 h6 {
