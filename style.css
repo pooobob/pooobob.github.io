@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #00d3ff;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background-image: url("./background.gif");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+h6 {
+	height: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+#center {
+	text-align: center;
+}
+
+#rainbow {
+	background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	background-size: 800% 800%;
+	background-clip: text;
+	color: transparent;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	animation: rainbow 8s ease infinite;
+}
+
+@keyframes rainbow { 
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 25%}
+    100%{background-position: 0% 50%}
+}
+
+#impostersanta {
+	position: absolute;
+    width: 10em;
+    height: 10em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-image: url("./stupidsanta.jpg");
+	left: 0;
+    bottom: 0;
+}
+
+#AMONGUS {
+	position: absolute;
+    width: 10em;
+    height: 10em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-image: url("./spinning-among-us.gif");
+	right: 0;
+    bottom: 0;
+}
+
+#WHATINTHEAMONGUS {
+	width: 15em;
+	height: 15em;
+	background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+	background-size: 800% 800%;
+	animation: rainbow 8s ease infinite;
+}
