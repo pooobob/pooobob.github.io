@@ -26,7 +26,7 @@
 
 
 	document.getElementById("WHATINTHEAMONGUS").onclick = () => {
-		if (ss.getItem("GAME") != "fun fact: monkey" && !JSON.parse(ss.getItem("GAME"))) {
+		if (ss.getItem("GAME") != null && ss.getItem("GAME") != "fun fact: monkey" && !JSON.parse(ss.getItem("GAME"))) {
 			let c = confirm("SO DO YOU WANT TO PLAY WITH ME NOW??")
 
 			if (!c) {
